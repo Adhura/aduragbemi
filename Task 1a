@@ -1,0 +1,11 @@
+<?php
+function myrange($start, $end){
+$array = [];
+
+for($i = $start; $i <= $end; $i++){
+array_push($array, $i);
+}
+return $array;
+}
+
+?>
