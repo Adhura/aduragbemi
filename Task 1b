@@ -1,0 +1,11 @@
+<?php
+function mysum($array){
+$sum = 0;
+
+foreach($array as $arr){
+$sum += $arr;
+}
+return $sum;
+}
+
+?>
